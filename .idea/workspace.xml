@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a0b9299-8d18-4ead-8749-e4bbacbe7fd8" name="Default" comment="" />
+    <list default="true" id="7a0b9299-8d18-4ead-8749-e4bbacbe7fd8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/MySQLdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/static/blogs/images/111.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/static/blogs/images/aboutme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/static/blogs/images/background 1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/static/blogs/images/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/static/blogs/images/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/static/blogs/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/templates/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/templates/about_me.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/templates/aboutme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/templates/blog_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/templates/blog_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/templates/blog_view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/templates/image/aboutme.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/blogs/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/myblog/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog/status" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Myblog.iml" afterPath="$PROJECT_DIR$/.idea/Myblog.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Myblog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,12 +60,12 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="23" />
-    <option name="width" value="1231" />
-    <option name="height" value="777" />
+    <option name="x" value="-243" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -73,7 +105,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -99,10 +145,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="23" width="1231" height="777" extended-state="6" />
+    <frame x="-243" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15989584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
