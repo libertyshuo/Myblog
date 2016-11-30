@@ -1,0 +1,23 @@
+{% load static from staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'blogs/style.css' %}">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<html>
+<head>
+	<title>About Me</title>
+</head>
+<body>
+   {% if errors %}
+    <ul>
+        {% for error in errors %}
+        <li style="color: red;">{{error}}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <dir>
+    	<h1 align="center">About Me</h1>
+        <p><img src="{% static "/blogs/images/aboutme.jpg" %}"></p>
+    </dir>
+</body>
+</html>
