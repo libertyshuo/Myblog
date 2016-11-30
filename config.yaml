@@ -3,7 +3,7 @@ version: 2
 
 libraries:
 - name: "django"
-  version: "1.8.5"                #注意前面有空格
+  version: "1.8.5"
 
 handlers:
 - url: /static
