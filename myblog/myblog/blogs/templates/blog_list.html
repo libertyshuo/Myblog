@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'blogs/style.css' %}">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<html>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Homepage</title>
+    <head>
+    </head>
+    <body>
+       {% if errors %}
+        <ul>
+            {% for error in errors %}
+            <li style="color: red;">{{error}}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    <div>
+        <h1 align="center">LiShuo's Blog</h1>
+        <p align="center"><a href="/blog/form">Write more</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/aboutme">About Me</a></p>
+    </div>
+    {% for blog in blog_list %}
+    <div>
+        <h2 align="center"><a href="/blog/view?id={{blog.id}}">{{blog.title}}</a></h2>
+        <p align="center">&nbsp;&nbsp;&nbsp;Author: {{blog.author}}&nbsp;&nbsp;&nbsp;published: {{blog.post_date | date:"Y-m-d H:i:s"}}</p>
+        <p align="center">&nbsp;&nbsp;&nbsp;DO: &nbsp;<a href="/blog/edit?id={{blog.id}}">Update</a>&nbsp;&nbsp;&nbsp;OR&nbsp;&nbsp;&nbsp;<a href="/blog/delete?id={{blog.id}}">Delete</a></p>
+        <p align="center">❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀</p>
+    </div>
+    {% empty %}
+        <p align="center">There's no blog.</p>
+    {% endfor %}

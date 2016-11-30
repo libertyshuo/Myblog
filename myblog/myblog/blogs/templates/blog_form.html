@@ -1,0 +1,44 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'blogs/style.css' %}">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<html>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Edit Blogs</title>
+    <head></head>
+    <style type="text/css">
+        body{padding:0 5em;margin:0}
+        h2{border-top:1px dotted #efd;margin-top:2em}
+        p{margin:1em 0}
+    </style>    
+    <body color='#FF8C00'>
+       {% if errors %}
+        <ul>
+            {% for error in errors %}
+            <li style="color: red;">{{error}}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    <h1>Edit Blogs</h1>
+    <p><a href="/blog/list">Go Back To HomePage </a>
+    <!-- <form action="/blog/form" method="post"> -->
+    <form action="/blog/form" method="post">{% csrf_token %}
+       <!-- <input name="csrfmiddlewaretoken" value="V9e6XHyDiEizZMaq6BdgQDDlE1wH4Lcy" type="hidden"> -->
+       <table>
+            <tbody>
+                <td><input id="id" name="id" type="hidden" value={{ blog.id }}></td></tr>
+                <tr><th><label for="id_title">Title </label></th>
+                    <td><input id="title" name="title" type="text" value={{ blog.title }}></td></tr>
+                <tr><th><label for="id_author">Author</label></th>
+                    <td><input id="author" name="author" type="text" value={{ blog.author }}></td></tr>
+                <tr><th><label for="id_content">Content </label></th>
+                    <td><textarea id="content" name="content" cols="80" rows="10">{{ blog.content }}</textarea></td></tr>
+            </tbody>
+        </table>
+
+        <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input value="保存" type="submit"></P>
+    </form>       
+       
+    </body>
+</html>
