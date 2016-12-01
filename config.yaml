@@ -6,5 +6,5 @@ libraries:
   version: "1.8.5"
 
 handlers:
-- url: /static
-  static_dir: blogs/static
+- url: /static/
+  static_dir: myblog/blogs/static
