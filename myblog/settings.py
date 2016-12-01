@@ -77,19 +77,34 @@ TEMPLATES = [
 WSGI_APPLICATION = 'myblog.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-
+from os import environ
+debug = not environ.get("APP_NAME", "")
+if debug:
+    #LOCAL
+    db_name = 'myblog'
+    name = 'root'
+    pwd = 'root'
+    host = '127.0.0.1'
+    port = '3306'
+else:
+    #SAE
+    import sae.const
+    db_name = "app_lishuoblog"
+    name = "0oj10205o0"
+    pwd = "hxm35x55435kiwjll5i32xjz04j505i5504h03y2"
+    host = "w.rdc.sae.sina.com.cn"
+    port = "3307"
+    host_s = "r.rdc.sae.sina.com.cn"
 #数据库连接
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'myblog',                      # Or path to database file if using sqlite3.
+        'NAME': db_name,                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': '127.0.0.1',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '3306',                      # Set to empty string for default.
+        'USER': name,
+        'PASSWORD': pwd,
+        'HOST': host,                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+        'PORT': port,                      # Set to empty string for default.
     }
 }
 
