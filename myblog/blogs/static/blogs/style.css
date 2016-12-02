@@ -1,6 +1,6 @@
 
 body {
-    background: white url("images/bg.jpg") no-repeat right bottom;
+    background: white url("{{STATIC_URL}}blogs/images/bg.jpg") no-repeat right bottom;
     color:#efd;
     width:100%;
     height:100%;
