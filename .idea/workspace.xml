@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a0b9299-8d18-4ead-8749-e4bbacbe7fd8" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myblog/blogs/static/blogs/images/111.jpg" afterPath="$PROJECT_DIR$/myblog/static/blogs/images/111.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myblog/blogs/static/blogs/images/aboutme.png" afterPath="$PROJECT_DIR$/myblog/static/blogs/images/aboutme.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myblog/blogs/static/blogs/images/background 1.jpg" afterPath="$PROJECT_DIR$/myblog/static/blogs/images/background 1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myblog/blogs/static/blogs/images/background.png" afterPath="$PROJECT_DIR$/myblog/static/blogs/images/background.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myblog/blogs/static/blogs/images/bg.jpg" afterPath="$PROJECT_DIR$/myblog/static/blogs/images/bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myblog/blogs/static/blogs/style.css" afterPath="$PROJECT_DIR$/myblog/static/blogs/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yaml" afterPath="$PROJECT_DIR$/config.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/urls.py" afterPath="$PROJECT_DIR$/myblog/urls.py" />
     </list>
     <ignored path="Myblog.iws" />
@@ -65,8 +57,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myblog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9338235">
-              <caret line="49" column="33" selection-start-line="47" selection-start-column="31" selection-end-line="49" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.625">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -558,8 +550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myblog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9338235">
-          <caret line="49" column="33" selection-start-line="47" selection-start-column="31" selection-end-line="49" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.625">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding />
         </state>
       </provider>

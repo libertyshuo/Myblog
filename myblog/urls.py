@@ -24,7 +24,7 @@ from myblog.blogs import views
 # from django.contrib import admin
 # admin.autodiscover()
 
-urlpatterns = patterns('',
+urlpatterns = patterns(
     # Examples:
     # url(r'^$', 'myblog.views.home', name='home'),
     # url(r'^myblog/', include('myblog.foo.urls')),
