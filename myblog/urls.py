@@ -34,7 +34,6 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^$', include(views.blog_list)),
-    url(r'^/$', include(views.blog_list)),
     url(r'^index$', include(views.blog_list)),
     url(r'^admin/', include(views.blog_list)),
     url(r'^blog/list$', views.blog_list),
@@ -46,6 +45,6 @@ urlpatterns = patterns('',
     #url(r'^site_media/(?P<path>.*)','django.views.static.serve',{'document_root':'home/desktop/myblog/myblog/blogs/static'}), 
     url(r'/(?P<path>.*)','django.views.static.serve',{'document_root':'/blogs/static'}),
 )
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-urlpatterns += staticfiles_urlpatterns()
-#urlpatterns += staticfiles_urlpatterns()
+# from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+# urlpatterns += staticfiles_urlpatterns()
+# #urlpatterns += staticfiles_urlpatterns()
