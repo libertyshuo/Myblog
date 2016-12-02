@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a0b9299-8d18-4ead-8749-e4bbacbe7fd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yaml" afterPath="$PROJECT_DIR$/config.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/urls.py" afterPath="$PROJECT_DIR$/myblog/urls.py" />
     </list>
     <ignored path="Myblog.iws" />
@@ -35,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1764706">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
             </state>
@@ -55,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myblog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.8014706">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -536,6 +535,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myblog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -546,16 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myblog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1764706">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.8014706">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding />
         </state>
       </provider>

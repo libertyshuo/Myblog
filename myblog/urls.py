@@ -43,7 +43,7 @@ urlpatterns = patterns(
     url(r'^blog/edit$', views.blog_edit),
     url(r'^aboutme$', views.aboutme),
     #url(r'^site_media/(?P<path>.*)','django.views.static.serve',{'document_root':'home/desktop/myblog/myblog/blogs/static'}), 
-    url(r'/(?P<path>.*)','django.views.static.serve',{'document_root':'/blogs/static'}),
+    # url(r'/(?P<path>.*)','django.views.static.serve',{'document_root':'/blogs/static'}),
 )
 # from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 # urlpatterns += staticfiles_urlpatterns()
